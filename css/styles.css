@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+html {
+    --card-width: 250px;
+    --main-color: #333333;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    background: url("./../images/pexels-photo-248515.png") center;
+    background-size: cover;
+    background-origin: border-box;
+    color: white;
+    height: fit-content;
+    padding: 5% 20%;
+}
+
+header > h1 {
+    padding: 50px 0 20px 0;
+    font-size: 2em;
+    display: block;
+}
+
+header > a {
+    border: 1px solid white;
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+header > a:hover {
+    background: white;
+    color: var(--main-color);
+}
+
+#section1 {
+    background-color: #eaeaea;
+    padding: 2% 20%;
+    color: var(--main-color);
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+#section1 p {
+    display: block;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+#section2 {
+    background: var(--main-color);
+}
+
+.Card {
+    width: var(--card-width);
+    height: 500px;
+    background: white;
+    display: inline-block;
+    margin: 20px;
+    color: var(--main-color);
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardImage {
+    width: var(--card-width);
+    height: 150px;
+    overflow: hidden;
+}
+
+.cardImage > img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.cardInfo {
+    padding: 20px;
+}
+
+.cardHeading {
+    padding: 20px 0 40px 0;
+    font-size: x-large;
+}
+
+#section3 {
+    padding: 2% 20%;
+}
+
+#section4 {
+    color: white;
+}
+
+#section4 div {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 2%;
+    width: 50%;
+    height: 300px;
+    vertical-align: bottom;
+}
+
+#box1 {
+    background-color: #2690d4;
+}
+
+#box2 {
+    background-color: var(--main-color);
+}
+
+.footer {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 1.5em;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
